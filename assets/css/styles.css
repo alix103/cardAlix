@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#abf4ff, 
+    #c2d1ff, 
+    #c0caff, 
+    #cbdeff, 
+    #dec2f1,  
+    #ffacd9, 
+    #ff9ccc);
+    background-size: cover;
+    font-family: 'Montserrat', 'poppins', sans-serif;
+    height: 100vh;
+}
+
+.login-box{
+    width: 320px;
+    height: 500px;
+    background:  linear-gradient( 
+        #f4bfd2, 
+        #f8ddf0,
+        #ecdef2, 
+        #dfdbf0,
+        #c8d2eb,
+        #b6cbe8
+        ) no-repeat;
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 150px 30px;
+    border-radius: 20px;
+    box-shadow: 5px 9px 16px -3px rgba(0, 0, 0, 0.27);
+}
+
+.login-box .imagen {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4%;
+    left: calc(47% - 50px);
+}
+
+.login-box label {
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 2px;
+    font-family: 'Poppins', 'FontAwesome', sans-serif;
+}
+
+.login-box select {
+    width: 100%;
+    padding: 2px;
+    font-family: 'Poppins', 'FontAwesome', sans-serif;
+}
+
+.login-box .form .input-text{
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    font-family: 'Poppins', 'FontAwesome', sans-serif;
+ 
+}
+
+.login-box input[type="text"], 
+.login-box input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 17px;
+}
+
+/* quitar flechas input number*/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.login-box select{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 17px;
+}
+
+.login-box button {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    background: #4ad096;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 60%;
+}
+
+.login-box button:hover {
+    cursor: pointer;
+    background-color: green;
+}
